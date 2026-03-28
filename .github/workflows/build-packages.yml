@@ -36,7 +36,6 @@ jobs:
           - i386_pentium4
           - mips64_octeonplus
           - mips_24kc
-          - mips_4kec
           - mips_mips32
           - mipsel_24kc
           - mipsel_24kc_24kf
@@ -44,7 +43,6 @@ jobs:
           - mipsel_mips32
           - powerpc_464fp
           - powerpc_8548
-          - riscv64_riscv64
           - x86_64
         tag:
           - openwrt-25.12
