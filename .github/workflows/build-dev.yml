@@ -64,6 +64,7 @@ jobs:
           curl_version=$(grep -Po '(?<=PKG_VERSION:=).*' curl/Makefile)
           echo "curl_version=$curl_version" >> "$GITHUB_ENV"
           # depends
+          git clone https://github.com/sbwml/package_libs_ngtcp2 ngtcp2
           git clone https://github.com/sbwml/package_libs_nghttp3 nghttp3
           # openssl 3.2
           git clone https://github.com/sbwml/package_libs_openssl -b openssl-3.2 openssl
